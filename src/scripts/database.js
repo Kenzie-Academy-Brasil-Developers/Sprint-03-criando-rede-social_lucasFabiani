@@ -83,15 +83,15 @@ const suggestUsers = [
     img: "./src/assets/img/user7.svg",
   },
   {
-    id: 3,
-    user: "Rafael Bertoldo",
-    stack: "Fullstack Engineer",
-    img: "./src/assets/img/user7.svg",
+    id: 4,
+    user: "Sebastian",
+    stack: "Devop's",
+    img: "./src/assets/img/sebastian.png",
   },
   {
-    id: 3,
-    user: "Rafael Bertoldo",
-    stack: "Fullstack Engineer",
-    img: "./src/assets/img/user7.svg",
+    id: 5,
+    user: "Branquinha",
+    stack: "UX e UI Designer",
+    img: "./src/assets/img/branquinha.png",
   },
 ];

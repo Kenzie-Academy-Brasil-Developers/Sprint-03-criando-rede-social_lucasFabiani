@@ -112,7 +112,8 @@ figure > img {
   color: var (--grey-1);
   font-weight: bolder;
   border-radius: 4px;
-  height: 2rem;
+  height: 32px;
+  width: 123px;
   margin-top: 10%;
 }
 .seguindo {
@@ -121,8 +122,13 @@ figure > img {
   color: var(--whiteFixed);
   font-weight: bolder;
   border-radius: 4px;
-  height: 2rem;
+  height: 32px;
+  width: 123px;
+
   margin-top: 10%;
+}
+.teste > h3 {
+  font-weight: bold;
 }
 .list-user {
   width: 13rem;
@@ -132,6 +138,9 @@ figure > img {
   display: flex;
   flex-direction: row;
   height: 10rem;
+}
+.sugestoes-mobile {
+  width: none;
 }
 
 .lista {
@@ -339,6 +348,16 @@ h2 {
     width: 5rem;
     height: 2rem;
   }
+  .titulo {
+    border: 2px solid var(--grey-4);
+    padding: 16px 20px;
+    border-radius: 6px;
+    margin-top: 8%;
+    width: 22rem;
+  }
+  .sugestoes-mobile {
+    width: 17rem;
+  }
 
   .divLogin {
     margin-top: 10%;
@@ -361,7 +380,6 @@ h2 {
   }
 
   .container-publicacao {
-    width: 50rem;
   }
   .container-botoes {
     display: flex;
