@@ -1,4 +1,4 @@
-export const users = [
+const users = [
   {
     id: 1,
     user: "Samuel Leão",
@@ -31,7 +31,7 @@ export const users = [
   },
 ];
 
-export const posts = [
+const posts = [
   {
     id: 1,
     title:
@@ -63,7 +63,7 @@ export const posts = [
   },
 ];
 
-export const suggestUsers = [
+const suggestUsers = [
   {
     id: 1,
     user: "Carlos Lima",
@@ -75,6 +75,18 @@ export const suggestUsers = [
     user: "Júlia Martins",
     stack: "Devop's",
     img: "./src/assets/img/user5.svg",
+  },
+  {
+    id: 3,
+    user: "Rafael Bertoldo",
+    stack: "Fullstack Engineer",
+    img: "./src/assets/img/user7.svg",
+  },
+  {
+    id: 3,
+    user: "Rafael Bertoldo",
+    stack: "Fullstack Engineer",
+    img: "./src/assets/img/user7.svg",
   },
   {
     id: 3,
